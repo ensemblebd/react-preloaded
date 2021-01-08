@@ -54,13 +54,11 @@ class Preload extends Component {
         this._mounted = false;
     }
 
-    componentWillMount() {
+    componentDidMount() {
         if (!this.props.images || this.props.images.length === 0) {
             this._handleSuccess();
         }
-    }
-
-    componentDidMount() {
+        
         this._mounted = true;
         if (!this.state.ready) {
             ImageHelper
