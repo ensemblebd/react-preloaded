@@ -6,7 +6,7 @@
     "scripts"         : {
         "build-linx": "./scripts/build.sh",
 	    "build-mac": "./scripts/build.sh",
-	    "build-windows": "./scripts/build.bat",
+	    "build-windows": ".\\scripts\\build.bat",
         "build": "node ./scripts/build.js",
         "test"      : "./node_modules/.bin/eslint -c .eslintrc modules/*",
         "prepublish": "npm run build"
