@@ -1,5 +1,5 @@
 {
-    "name"            : "react-preloaded",
+    "name"            : "@ensemble/react-preloaded",
     "version"         : "1.0.0",
     "description"     : "Show a placeholder while images are being preloaded.",
     "main"            : "lib/index.js",
